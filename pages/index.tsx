@@ -1,16 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
-import { Wrapper, Header, Main, Footer, Cards } from "@components";
+import { Wrapper, Starter } from "@components";
 import GlobalStyle from "@styles/globalStyles";
 
 const Home: React.FC = () => {
     return (
         <Wrapper>
             <GlobalStyle />
-            <Header />
-            <Main />
-            <Cards />
-            <Footer />
+            <Starter />
         </Wrapper>
     );
 };
